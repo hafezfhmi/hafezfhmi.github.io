@@ -40,6 +40,7 @@ nav{
 .nav_ul{
     background-color: rgba(238, 238, 238, 0.5);
     text-align: center;
+    margin: auto;
 }
 
 .nav_li{
@@ -49,7 +50,7 @@ nav{
 
 .nav_link{
     text-decoration: none;
-    color: black;
+    color: var(--clr_dark);
 }
 
 @media (max-width: 800px)
@@ -74,7 +75,7 @@ nav{
 .welcome_container1{
     grid-area: box1;
     text-align: center;
-    color: white;
+    color: var(--clr_light);
 }
 
 strong{
@@ -124,13 +125,13 @@ strong{
 	left: 0px;
     height:100px;
     width:100px;
-    border: 4px solid white;
+    border: 4px solid var(--clr_light);
     top: 0px;
 }
     
 .finger{
     position: absolute;
-    border: 4px solid white;
+    border: 4px solid var(--clr_light);
     width: 15px;
     height: 80px;
     top: -100px;
@@ -161,7 +162,7 @@ strong{
 .thumb{
     position: absolute;
     left: 125px;
-    border: 4px solid white;
+    border: 4px solid var(--clr_light);
     width: 18px;
     height: 60px;
     top: 25px;
@@ -272,18 +273,18 @@ strong{
 }
 
 .resume_container{
-    text-align: center; 
+    text-align: center;
 }
 
 .resume_container h2{
-    color: white;
+    color: var(--clr_light);
     font-weight: var(--fw-bold);
     height: 58px;
 }
 
 .resume_container a{
     text-decoration: none;
-    color: black;
+    color: var(--clr_dark);
     background-color: var(--clr_btn);
     padding: 10px;
     border-radius: 25px;
@@ -294,8 +295,8 @@ strong{
 
 .resume_container a:hover{
     background-color: transparent;
-    color: white;
-    border: 2px solid white;
+    color: var(--clr_light);
+    border: 2px solid var(--clr_light);
 }
 
 
@@ -328,7 +329,7 @@ strong{
 
 .project_box:after{
     content: attr(data-text);
-    font-size: var(--fs-normal);
+    font-size: 0.8rem;
     position: absolute;
     top: 81%;
     right: 0;
@@ -352,8 +353,8 @@ strong{
 }
 
 .project_box:first-line{
-    font-size: 18px;
-    color: white;
+    font-size: 1rem;
+    color: var(--clr_light);
     text-align: center;
     line-height: 45px;
 }
@@ -367,21 +368,21 @@ strong{
 }
 
 .project_box-1{
-    background-image: url(img/my_picture.jpg);
+    background-image: url(img/TextBasedRPG.JPG);
 }
 
 .project_box-2{
-    background-image: url(img/my_picture.jpg);
+    background-image: url(img/HotelReservationSystemV1.JPG);
 
 }
 
 .project_box-3{
-    background-image: url(img/my_picture.jpg);
+    background-image: url(img/HotelReservationSystemV2.JPG);
 
 }
 
 .project_box-4{
-    background-image: url(img/my_picture.jpg);
+    background-image: url(img/Website.JPG);
 
 }
 
@@ -398,7 +399,7 @@ strong{
 }
 
 .contact_container h2{
-    color: white;
+    color: var(--clr_light);
     font-weight: var(--fw-bold);
     margin: 20px auto;
     height: 58px;
