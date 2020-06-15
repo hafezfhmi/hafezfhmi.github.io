@@ -370,21 +370,22 @@ strong{
 
 .project_box-1{
     background-image: url(img/TextBasedRPG.JPG);
+    background-size: cover;
 }
 
 .project_box-2{
     background-image: url(img/HotelReservationSystemV1.JPG);
-
+    background-size: cover;
 }
 
 .project_box-3{
     background-image: url(img/HotelReservationSystemV2.JPG);
-
+    background-size: cover;
 }
 
 .project_box-4{
     background-image: url(img/Website.JPG);
-
+    background-size: cover;
 }
 
 
