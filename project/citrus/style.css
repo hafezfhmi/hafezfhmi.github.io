@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+html, body{
+	background: #f2f2f2;
+	height: 100%;
+}
+
+nav{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav ul li{
+	float: right;
+	list-style: none;
+	font-size: 15pt;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+}
+
+nav ul li:first-child{
+	float: left;
+	font-size: 20pt;
+}
+
+nav ul li a{
+	color:  #004741;
+	padding: 15px 16px 0 16px;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	border-bottom: 5px solid #ffd200;
+}
+
+nav ul li:first-child a:hover{
+	border-bottom: none;
+}
+
+.sectionTop{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	overflow: hidden;
+}
+
+.sectionTop img{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.sectionTop h1{
+	position: relative;
+	color: #ffd200;
+	font-size: 65pt;	
+}
+
+.twoContainer{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+}
+
+.OneContainer{
+	display: flex;
+	height: 60%;
+	width: 100%;
+	align-items: center;
+	flex-direction: column;
+}
+
+.caption{
+	flex-basis: 50%;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffd200;
+	font-size: 30pt;
+	padding-left: 25px;
+	padding-right: 25px;
+	line-height: 52pt;
+}
+
+.captionNocenter{
+	color: #ffd200;
+	font-size: 30pt;
+	padding-left: 25px;
+	padding-right: 25px;
+	line-height: 52pt;
+}
+
+.captionMove{
+	flex-basis: 50%;
+	flex-direction: column;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffd200;
+	font-size: 30pt;
+	position: sticky;
+	top: 0;
+	padding-left: 25px;
+	padding-right: 25px;
+	line-height: 52pt;
+}
+
+.green{
+	color: #004741;
+}
+
+.white1{
+	color: #f2f2f2;
+}
+
+.roundCornerRight{
+	flex-basis: 50%;
+	height: 85%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #004741;
+	font-size: 25pt;
+	background-color: #ebebeb;
+	border-radius: 50px 0 0 50px;
+	line-height: 45pt;
+}
+
+.roundCornerLeft{
+	flex-basis: 50%;
+	height: 85%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #004741;
+	font-size: 25pt;
+	background-color: #ebebeb;
+	border-radius: 0 50px 50px 0;
+	line-height: 45pt;
+}
+
+.fruitsBenefits{
+	padding-top: 60px; 
+	padding-bottom: 60px;
+}
+
+.fruitImg{
+	max-width: 60%;
+}
+
+.benefitCaption{
+	background-color: #fff; 
+	width: 70%; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.benefitTable{
+	background-color: #fff; 
+	width: 70%; 
+	margin-left: auto; 
+	margin-right: auto;
+	border-collapse: collapse;
+	
+}
+
+.benefitTable td,th{
+	border: 2px solid #004741;
+}
+
+.btnAction{
+	color: #004741;
+	background-color: #ffd200;
+	text-decoration: none;
+	border-radius: 25px;
+	padding: 5px 25px;
+	font-size: 25pt;
+	border: none;
+	cursor: pointer;
+	line-height: 45pt;
+}
+
+footer{
+	color: #004741;
+	background-color: #ebebeb;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footerSmallpage{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.socialIcon{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.socialIcon img{
+	width: 60px;
+	margin: auto 25px;
+}
+
+.contentCenter{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 60px; 
+	padding-bottom: 60px;
+}
+
+form{
+	margin: 40px auto;
+}
+
+.input{
+	color: #004741;
+	font-size: 20pt;
+	padding: 5pt;
+	margin-left: 25pt;
+}
+
+input[type='radio'] { 
+	transform: scale(1.5); 
+}
+
+input[type='checkbox'] { 
+	transform: scale(1.5); 
+}
+
+.aboutParagraph{
+	height: 80%;
+	width: 100%;
+	background-color: #004741;
+}
+
+.peelContainer{
+	display: flex;
+	height: 60%;
+	width: 100%;
+	align-items: center;
+}
+
+video{
+	width: 50%;
+	padding-top: 40px; 
+}
+
+.imgCenter{
+	width: 30%;
+	height: auto;
+}
+
+.productList{
+	width: 100%;
+	height: 50%;
+	color: #004741;
+	font-size: 25pt;
+	line-height: 45pt;
+}
